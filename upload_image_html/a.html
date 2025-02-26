@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片查重上传</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+
+    <header>
+        <h1>学术论文图片查重系统</h1>
+    </header>
+
+    <section class="service-process">
+        <div class="process-step">
+            <h3>1. 用户账号</h3>
+            <p>通过创建或登录账户开始查重流程。</p>
+        </div>
+        <div class="process-step">
+            <h3>2. 图像上传</h3>
+            <p>选择需要查重的图片文件，支持.zip/.rar压缩包。</p>
+        </div>
+        <div class="process-step">
+            <h3>3. 订单支付</h3>
+            <p>根据查重需求支付相应费用。</p>
+        </div>
+        <div class="process-step">
+            <h3>4. 图片查重</h3>
+            <p>系统进行智能分析，提供详细查重报告。</p>
+        </div>
+        <div class="process-step">
+            <h3>5. 报告下载</h3>
+            <p>用户下载查重报告，完成查重流程。</p>
+        </div>
+    </section>
+    <section class = "image-show">
+        <h3>图片示例</h3>
+        <div class="image-card">
+            <img src="classes_images/page_5_img_1.jpeg" alt="图片示例">
+        </div>
+        <div class="image-card">
+            <img src="classes_images/page_6_img_1.jpeg" alt="图片示例">
+        </div>
+        <div class="image-card">
+            <img src="classes_images/page_8_img_1.jpeg" alt="图片示例">
+        </div>
+
+
+    </section>
+
+    <section class="pricing-table">
+        <!-- <table>
+            <tr>
+                <th>套餐</th>
+                <th>数量/张</th>
+                <th>单价/元</th>
+            </tr>
+            <tr>
+                <td rowspan="3">图片按数量计费</td>
+                <td>少于60</td>
+                <td>65.00</td>
+            </tr>
+            <tr>
+                
+                <td>61-125</td>
+                <td>55.00</td>
+            </tr>
+            <tr>
+                
+                <td>126-260</td>
+                <td>45.00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">固定挡位计费</td>
+                <td>少于60</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                
+                <td>61-125</td>
+                <td>5500</td>
+            </tr>
+        </table> -->
+
+
+        <div class="upload-section">
+            <p>点击上传文件，支持 .zip / .rar</p>
+            <input type="file" id="file-upload" accept=".zip,.rar" onchange="displayFileInfo()">
+            <!-- <button class="upload-button">上传文件</button> -->
+            <button id="uploadButton">上传文件</button>
+            <p class="file-info" id="file-info">未选择文件</p>
+        </div>
+    </section>
+    <script src="a.js"></script>
+</body>
+</html>

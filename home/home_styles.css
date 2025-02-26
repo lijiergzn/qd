@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0220;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(90deg, #5a189a, #3c096c);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #ffcc00;
+}
+
+nav button {
+    background: #6a0572;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.system,
+.services,
+.image-section {
+    padding: 20px;
+}
+
+.systems,
+.service-options,
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.system-card,
+.service-card,
+.image-card {
+    background: #210b2c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.system-card h3,
+.service-card h3
+{
+    color: #ffcc00;
+}
+
+.image-card h3{
+    color: #9e8b3d
+}
+.image-section h3 {
+    font-size: 14px;
+    /* 根据需要调整大小 */
+}
+
+.system-card button,
+.service-card button {
+    background: #9d4edd;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background: #14062c;
+    padding: 10px;
+    margin-top: 20px;
+}
