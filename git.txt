@@ -1,0 +1,1 @@
+git remote add QD git@github.com:lijiergzn/QD.git
